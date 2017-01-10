@@ -1,0 +1,31 @@
+{
+  "service": "mycol001",
+  "mongodb": {
+    "host": "localhost",
+    "port": 27017,
+    "db": "test",
+    "collection": "question"
+  },
+  "mysql": {
+    "host": "localhost",
+    "user": "qnaire_user",
+    "password": "123456",
+    "db": "test_report",
+    "table": "report"
+  },
+  "sync_fields": {
+    "id": "string",
+    "cid": "string",
+    "updated": "datetime",
+    "SID": "int",
+    "title": "string",
+    "project_id": "string",
+    "question_type": "int",
+    "questionpage_id": "string"
+  },
+  "trans_to" : {
+    "field_names" : {
+      "_id": "id"
+    }
+  }
+}
